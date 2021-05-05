@@ -25,7 +25,6 @@ class RestaurantServiceTest {
         Restaurant restaurant1 = service.findRestaurantByName("Amelie's cafe");
 
         assertEquals("Amelie's cafe",restaurant.getName());
-//        assertNotNull(restaurant1);
     }
 
     @Test
