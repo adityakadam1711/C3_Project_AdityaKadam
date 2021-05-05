@@ -76,10 +76,10 @@ class RestaurantTest {
         restaurant.addToMenu("Sweet corn soup",119);
         restaurant.addToMenu("Vegetable lasagne", 269);
 
-
         List<Item> menu = restaurant.getMenu();
 
         int totalCost = restaurant.calculateTotalCostOfTheItemsAdded(menu);
+
         assertEquals(388,totalCost);
 
 
